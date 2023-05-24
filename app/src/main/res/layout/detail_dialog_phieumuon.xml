@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/title_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin thành viên" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp">
+
+            <TextView
+                style="@style/detail_dialog_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Mã Phiếu mượn" />
+
+            <TextView
+                android:id="@+id/tvId"
+                style="@style/detail_dialog_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                style="@style/detail_dialog_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tên thành viên" />
+
+            <TextView
+                android:id="@+id/tvTenTV"
+                style="@style/detail_dialog_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                style="@style/detail_dialog_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên sách mượn" />
+
+            <TextView
+                android:id="@+id/tvTenSach"
+                style="@style/detail_dialog_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                style="@style/detail_dialog_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiền thuê" />
+
+            <TextView
+                android:id="@+id/tvTienThue"
+                style="@style/detail_dialog_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tvIdTT"
+                style="@style/detail_dialog_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thủ thư" />
+
+            <TextView
+                android:id="@+id/tvThuThu"
+                style="@style/detail_dialog_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                style="@style/detail_dialog_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngày mượn" />
+
+            <TextView
+                android:id="@+id/tvNgayThue"
+                style="@style/detail_dialog_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                style="@style/detail_dialog_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái" />
+
+            <TextView
+                android:id="@+id/tvTraSach"
+                style="@style/detail_dialog_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

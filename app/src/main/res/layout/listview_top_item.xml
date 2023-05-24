@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvTopName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="@color/scarlet"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvTopSl"
+        app:layout_constraintStart_toEndOf="@+id/tvTopId"
+        app:layout_constraintTop_toTopOf="@+id/tvTopId" />
+
+    <TextView
+        android:id="@+id/tvTopSl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvTopName"
+        app:layout_constraintTop_toTopOf="@+id/tvTopName" />
+
+    <TextView
+        android:id="@+id/tvTopId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="4dp"
+        android:text="1."
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
